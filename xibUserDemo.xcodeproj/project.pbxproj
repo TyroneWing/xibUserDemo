@@ -14,6 +14,8 @@
 		1905B9791B85D071009F57D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1905B9781B85D071009F57D0 /* Images.xcassets */; };
 		1905B97C1B85D071009F57D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1905B97A1B85D071009F57D0 /* LaunchScreen.xib */; };
 		1905B9881B85D072009F57D0 /* xibUserDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1905B9871B85D072009F57D0 /* xibUserDemoTests.m */; };
+		1905B9941B85D0DE009F57D0 /* C1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1905B9921B85D0DE009F57D0 /* C1.m */; };
+		1905B9951B85D0DE009F57D0 /* C1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1905B9931B85D0DE009F57D0 /* C1.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		1905B9811B85D072009F57D0 /* xibUserDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xibUserDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1905B9861B85D072009F57D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1905B9871B85D072009F57D0 /* xibUserDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xibUserDemoTests.m; sourceTree = "<group>"; };
+		1905B9911B85D0DE009F57D0 /* C1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C1.h; sourceTree = "<group>"; };
+		1905B9921B85D0DE009F57D0 /* C1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C1.m; sourceTree = "<group>"; };
+		1905B9931B85D0DE009F57D0 /* C1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = C1.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,9 @@
 				1905B9701B85D071009F57D0 /* AppDelegate.m */,
 				1905B9721B85D071009F57D0 /* ViewController.h */,
 				1905B9731B85D071009F57D0 /* ViewController.m */,
+				1905B9911B85D0DE009F57D0 /* C1.h */,
+				1905B9921B85D0DE009F57D0 /* C1.m */,
+				1905B9931B85D0DE009F57D0 /* C1.xib */,
 				1905B9751B85D071009F57D0 /* Main.storyboard */,
 				1905B9781B85D071009F57D0 /* Images.xcassets */,
 				1905B97A1B85D071009F57D0 /* LaunchScreen.xib */,
@@ -202,6 +210,7 @@
 				1905B9771B85D071009F57D0 /* Main.storyboard in Resources */,
 				1905B97C1B85D071009F57D0 /* LaunchScreen.xib in Resources */,
 				1905B9791B85D071009F57D0 /* Images.xcassets in Resources */,
+				1905B9951B85D0DE009F57D0 /* C1.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +231,7 @@
 				1905B9741B85D071009F57D0 /* ViewController.m in Sources */,
 				1905B9711B85D071009F57D0 /* AppDelegate.m in Sources */,
 				1905B96E1B85D071009F57D0 /* main.m in Sources */,
+				1905B9941B85D0DE009F57D0 /* C1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  C1.h
 //  xibUserDemo
 //
 //  Created by yi on 15/8/20.
@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-@property (nonatomic, strong) UITableViewCell *prototypeCell;
+@interface C1 : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *firstlabel;
 
 @end
-
